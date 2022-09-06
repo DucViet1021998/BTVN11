@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTVN11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1 class="item">
+            Reading List
+        </h1>
+        <div class="item">Reading list in 2022</div>
+        <form class="item">
+            <input id="mySearch" onkeyup="seaching()" type="text" placeholder="Search books">
+        </form>
+    </header>
+    <tbody>
+        <h2>Books to Read</h2>
+        <ul id="myUl">
+            <li>Lập trình web căn bản
+                <span class="delete">delete</span>
+            </li>
+            <li>Lập trình Full Stack Web
+                <span class="delete">delete</span>
+            </li>
+            <li>Lập trình Mobile App
+                <span class="delete">delete</span>
+            </li>
+            <li>Lập trình Nodejs
+                <span class="delete">delete</span>
+            </li>
+        </ul>
+        <form class="add">
+            <input id="myInput" type="text" placeholder="Add a book">
+            <div onclick=addSub()>Add</div>
+        </form>
+        <script src="jav.js"></script>
+    </tbody>
+</div>
+</body>
+</html>
